@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
 posts = [
@@ -15,6 +15,7 @@ posts = [
         'date_posted': 'November 28, 2018'
     }
 ]
+
 
 @app.route('/')
 @app.route('/home')
