@@ -1,6 +1,8 @@
 from flask import Flask, render_template, url_for
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = '6086dbce01e4a17787cf07135787e954'
+
 posts = [
     {
         'author': 'David Hammaker',
