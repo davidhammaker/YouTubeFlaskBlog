@@ -24,6 +24,6 @@ $ pip install flask-login
 
 When you have acquired/installed all the dependencies, you can run the app from the shell terminal. Once again, ensure that your virtual environment is active, then run the following:
 
-`$ python flaskblog.py`
+`$ python run.py`
 
 If you see no errors, open an internet browser and navigate to `localhost:5000`. The app should be running at that address.
