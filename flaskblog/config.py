@@ -2,8 +2,8 @@ import os
 
 
 class Config:
-    SECRET_KEY = '6086dbce01e4a17787cf07135787e954'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///site.db'
+    SECRET_KEY = os.environ.get('FLASKBLOG_SECRET_KEY')
+    SQLALCHEMY_DATABASE_URI = os.environ.get('FLASKBLOG_SQLALCHEMY_DATABASE_URI')
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
