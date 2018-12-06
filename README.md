@@ -10,7 +10,7 @@ _Note: This project is not necessarily intended to be used for any purpose other
 
 You will need access to a shell terminal (I am using [GitBash](https://git-scm.com/downloads) for Windows). You will also need to install the latest version of [Python 3](https://www.python.org/downloads/), which must be Python 3.6 or later. This app is incompatible with Python 2 and Python 3.5 or older.
 
-Clone this repository and create a Python [virtual environment](https://docs.python.org/3/library/venv.html). Inside your shell terminal, activate the virtual environment and install Flask, Flask-WTF (for forms), Flask-SQLAlchemy (for databases), Flask-Bcrypt (for hashing passwords), Flask-Login (for login functionality), and Pillow (for image modification):
+Clone this repository and create a Python [virtual environment](https://docs.python.org/3/library/venv.html). Inside your shell terminal, activate the virtual environment and install Flask, Flask-WTF (for forms), Flask-SQLAlchemy (for databases), Flask-Bcrypt (for hashing passwords), Flask-Login (for login functionality), Pillow (for image modification), and Flask-Mail (for sending emails):
 
 ```
 $ pip install flask
@@ -19,6 +19,7 @@ $ pip install flask-sqlalchemy
 $ pip install flask-bcrypt
 $ pip install flask-login
 $ pip install Pillow
+$ pip install flask-mail
 ```
 
 ### Running the App
